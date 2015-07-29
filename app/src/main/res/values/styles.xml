@@ -1,0 +1,50 @@
+<resources>
+
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/positive_background_colour</item>
+        <item name="android:button">@drawable/positive_button</item>
+        <item name="android:buttonStyle">@style/PositiveButtonStyle</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="NegativeTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/negative_background_colour</item>
+        <item name="android:button">@drawable/negative_button</item>
+        <item name="android:buttonStyle">@style/NegativeButtonStyle</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="PositiveButtonStyle">
+        <item name="android:background">@drawable/positive_button</item>
+        <item name="android:paddingLeft">50dp</item>
+        <item name="android:paddingRight">50dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="NegativeButtonStyle">
+        <item name="android:background">@drawable/negative_button</item>
+        <item name="android:paddingLeft">50dp</item>
+        <item name="android:paddingRight">50dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+    <style name="PointsText" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+
+</resources>

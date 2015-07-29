@@ -1,0 +1,33 @@
+<shape android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp">
+
+
+    <solid android:color="@drawable/negative_colour_selector"/>
+    <!--
+    <gradient
+        android:startColor="@color/button_colour"
+        android:endColor="@color/button_colour"
+        android:angle="45">
+    </gradient>
+    -->
+
+    <corners android:radius="10dip"/>
+
+
+
+    <stroke
+        android:width="1px"
+        android:color="@color/button_colour" />
+
+
+
+    <item android:left="10dp"
+        android:right="10dp"
+        android:top="10dp"
+        android:bottom="10dp"></item>
+
+</shape>
+
+

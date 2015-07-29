@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_colour">#B399FF</color>
+    <color name="button_colour">#9673FF</color>
+    <color name="button_pressed_colour">#7754DF</color>
+
+    <color name="positive_background_colour">#B399FF</color>
+    <color name="positive_button_colour">#9673FF</color>
+    <color name="positive_button_pressed_colour">#7754DF</color>
+
+    <color name="negative_background_colour">#57022E</color>
+    <color name="negative_button_colour">#34011C</color>
+    <color name="negative_button_pressed_colour">#230112</color>
+
+
+
+</resources>
